@@ -12,24 +12,11 @@ namespace ByteBankImportacaoExportacao
     { 
         static void Main(string[] args) 
         {
-            var enderecoArquivo = @"..\..\contas.txt";
-            
-            using(var fluxoArquivo = new FileStream(enderecoArquivo, FileMode.Open))
-            using(var leitor = new StreamReader(fluxoArquivo))
-            {
-               while (!leitor.EndOfStream)
-               {
-                   var linha = leitor.ReadLine();
-                   Console.WriteLine(linha);
-               }
-            }                
-            
+
+            CriarArquivoComWrite();
+            Console.WriteLine("Aplicação Finalizada...");
             Console.ReadLine();
         }
-
-      
-
-
     }
 } 
  
