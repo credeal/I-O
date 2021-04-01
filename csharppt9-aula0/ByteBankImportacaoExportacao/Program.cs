@@ -13,7 +13,7 @@ namespace ByteBankImportacaoExportacao
         static void Main(string[] args) 
         {
 
-            CriarArquivoComWrite();
+            TesteEscritaFlush();
             Console.WriteLine("Aplicação Finalizada...");
             Console.ReadLine();
         }

@@ -1,4 +1,5 @@
 ﻿
+using System;
 using System.IO;
 using System.Text;
 
@@ -34,6 +35,25 @@ namespace ByteBankImportacaoExportacao
             using (var escritor = new StreamWriter(fluxoArquivo))
             {
                 escritor.Write("456,65465,456.0,Julio Santos");
+            }
+        }
+
+        static void TesteEscritaFlush()
+        {
+            var enderecoArquivo = @"..\..\teste.txt";
+
+            using (var fluxoArquivo = new FileStream(enderecoArquivo, FileMode.Create))
+            using (var escritor = new StreamWriter(fluxoArquivo))
+            {
+                for (int i = 0; i < 15; i++)
+                {
+                    escritor.WriteLine($"Linha{i}");
+                    escritor.Flush(); //Despeja o buffer para o stream
+                    //sem o fluxo ele não escreve no HD
+
+                    Console.WriteLine($"Linha{i} fo escrita no arquivo.");
+                    Console.ReadLine();
+                }
             }
         }
     }
