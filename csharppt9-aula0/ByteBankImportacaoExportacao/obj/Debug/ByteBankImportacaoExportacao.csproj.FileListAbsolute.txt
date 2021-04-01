@@ -1,0 +1,6 @@
+C:\Users\21145\Documents\Developer\C#\C-Sharp\Entrada e Saida io\csharppt9-aula0\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.exe.config
+C:\Users\21145\Documents\Developer\C#\C-Sharp\Entrada e Saida io\csharppt9-aula0\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.exe
+C:\Users\21145\Documents\Developer\C#\C-Sharp\Entrada e Saida io\csharppt9-aula0\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.pdb
+C:\Users\21145\Documents\Developer\C#\C-Sharp\Entrada e Saida io\csharppt9-aula0\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.csproj.CoreCompileInputs.cache
+C:\Users\21145\Documents\Developer\C#\C-Sharp\Entrada e Saida io\csharppt9-aula0\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.exe
+C:\Users\21145\Documents\Developer\C#\C-Sharp\Entrada e Saida io\csharppt9-aula0\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.pdb
